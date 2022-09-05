@@ -1,0 +1,9 @@
+{
+    "name": "danil/datetime",
+    "description": "Service that encapsulates daylight saving time data for an arbitrary list of cities",
+    "require": {
+        "ext-mysqli": "*",
+        "ext-json": "*",
+        "ext-curl": "*"
+    }
+}
