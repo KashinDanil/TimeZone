@@ -10,7 +10,7 @@ CREATE TABLE `city`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;
 
-INSERT INTO db_timezone.city (id, country_iso3, name, latitude, longitude)
+INSERT INTO city (id, country_iso3, name, latitude, longitude)
 VALUES ('040efa6e-3512-4523-a4dc-33e29aece663', 'USA', 'Финикс', 33.6883, -112.0833)
      , ('09f3ad25-9bf8-4d7b-9ec2-4269a0ff53a2', 'GBR', 'Лондондерри', 55.0433, -7.1617)
      , ('0aa5711e-f664-4066-800a-286dfa3f3255', 'USA', 'Columbia', 33.9383, -81.1200)
@@ -22,7 +22,7 @@ VALUES ('040efa6e-3512-4523-a4dc-33e29aece663', 'USA', 'Финикс', 33.6883, 
      , ('2d433491-cef5-4988-aab5-dbf224281da1', 'USA', 'Хантсвилл', 34.6367, -86.7750)
      , ('3da6a648-a7b2-49e7-85d7-6b6b5ca84fc4', 'USA', 'Athens/Albany', 31.5350, -84.1950)
 ;
-INSERT INTO db_timezone.city (id, country_iso3, name, latitude, longitude)
+INSERT INTO city (id, country_iso3, name, latitude, longitude)
 VALUES ('3ef2f49f-7543-431e-890d-fceae99c97d8', 'USA', 'Джексонвилл', 30.3367, -81.5150)
      , ('43fde9b9-1f74-48f3-8bdf-c3d129addf1c', 'USA', 'Орландо', 28.2900, -81.4367)
      , ('47b90fca-4963-4320-8e24-cb8201950d41', 'USA', 'Атланта', 33.6367, -84.4283)
@@ -34,7 +34,7 @@ VALUES ('3ef2f49f-7543-431e-890d-fceae99c97d8', 'USA', 'Джексонвилл',
      , ('746bdf1d-d154-46cd-b104-9415fcc39e35', 'ZAF', 'Йоханнесбург', -25.9867, 28.1400)
      , ('7661247f-7520-4036-a126-aaf3872b0166', 'USA', 'Лас-Вегас', 35.9733, -115.1350)
 ;
-INSERT INTO db_timezone.city (id, country_iso3, name, latitude, longitude)
+INSERT INTO city (id, country_iso3, name, latitude, longitude)
 VALUES ('7aaf0015-2c77-4d67-b844-965e386765ba', 'USA', 'Fort Benning(Columbus)', 39.2617, -85.8967)
      , ('7f608a96-3963-4e13-b56c-b87ef454da54', 'TUR', 'Стамбул', 40.9767, 28.8150)
      , ('80defa05-74a0-4624-9d8d-d275407f6f11', 'USA', 'Буффало', 36.8633, -99.6183)
@@ -46,7 +46,7 @@ VALUES ('7aaf0015-2c77-4d67-b844-965e386765ba', 'USA', 'Fort Benning(Columbus)',
      , ('ae95e35a-aca7-4130-aa8e-e5fa145cb8c9', 'ITA', 'Рим', 41.8000, 12.5967)
      , ('aeac1535-7308-40fd-805a-0cba99ad4ce4', 'USA', 'Сакраменто', 38.6683, -121.4000)
 ;
-INSERT INTO db_timezone.city (id, country_iso3, name, latitude, longitude)
+INSERT INTO city (id, country_iso3, name, latitude, longitude)
 VALUES ('c1011ee2-63e7-4c03-b5da-83307196f395', 'USA', 'Дейтона-Бич', 29.1800, -81.0583)
      , ('c4d4b130-08a2-4472-8d79-742a4ed20567', 'BRA', 'Рио-де-Жанейро', -22.8750, -43.3850)
      , ('cb50327d-ef3e-457e-b91a-95ce8e9244fb', 'USA', 'Майами', 25.7950, -80.2900)
